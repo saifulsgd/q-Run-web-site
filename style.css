@@ -1,0 +1,75 @@
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(3, 53, 53);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: relative;
+}
+.heading{
+    animation: faiza 2s 2s infinite;
+}
+@keyframes faiza {
+   0%{color: aliceblue;} 
+   25%{color: red;} 
+   50%{color: yellow;} 
+   75%{color: green} 
+   100%{color: blue;} 
+}
+.s-icon{
+    width: 300px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+nav{
+    font-size: 11px;
+}
+.s-icon{
+    font-size: 11px;
+}
+.text-1{
+    margin-top: 100px;
+}
+.animate{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.display-1{
+    animation: fahad 5s 1s infinite alternate;
+    animation-timing-function: linear;
+}
+@keyframes fahad {
+    0%{font-size: 2px; color: magenta;}
+    25%{font-size: 100px; color: green;}
+    50%{font-size: 200px; color: yellow; transform: rotateX(90deg);}
+    75%{font-size: 250px; color: green;}
+    100%{font-size: 400px; color: red; transform: rotateY(90deg);} 
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    border: 1px solid gainsboro;
+}
+.s1,.s2,.s3{
+    width: 40px;
+    height: 50px;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1:hover{
+    border: 2px solid rgb(63, 63, 5);
+}
+.s2:hover{
+    border: 2px solid rgb(63, 63, 5);
+}
+.s3:hover{
+    border: 2px solid rgb(63, 63, 5);
+}
